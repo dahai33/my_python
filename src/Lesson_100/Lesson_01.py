@@ -35,6 +35,27 @@ print(str4)
 #         for a < i:
 #             sum=sum+i
 #             print(sum)
+#数据类型
+#Number
+a,b,c  =10,20,30
+#String
+b="this is String"
+#List
+my_list=["a","b","c","d"]
+print(my_list[3:4])
+#Tuple 元组
+my_tuple=("1994","1995","liuhaitao","liuhaitaodahai")
+print(my_tuple[1:3])
+#Sets集合
+Student={"apple","tomcat","tom","jieken "}
+if "apple" in Student:
+    print("is in")
+else:
+    print("not in")
+
+#Dictionaires 字典
+dic={'name':'tome','age':'12','shcool':'beijin'}
+print(dic['name'])
 
 
 
