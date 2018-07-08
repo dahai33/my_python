@@ -79,11 +79,25 @@ from __future__ import  division
 # print("y=",y)
 
 #创建函数
-def area(high,width):
-    return high*width
-def sum (x,y,z):
-    return x*y*z
-def str(str="nicd",*args):
-    return str+name+age
-
-
+# def area(high,width):
+#     return high*width
+# def sum (x,y,z):
+#     return x*y*z
+# # def str(str="nicd",*args):
+# #     return str+name+age
+# def return_sum (x,y):
+#     sum=x+y
+#     return sum
+# def empty_return(x,y):
+#     c=x*y
+#     return
+# def return_data(x,y,z):
+#     sum=x+y+z
+#     data=x*y*z
+#     return sum, data
+# def change_arg(*args):
+#     sum=0
+#     for x in args:
+#         sum += x
+#
+#     return sum

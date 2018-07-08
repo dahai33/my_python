@@ -68,8 +68,22 @@ list=my_list+my_list_1
 # s=list.count(2)
 # print (s)
 # print(list.count(2))
-print(sys.path)
-print (sys.version)
-
-
+# print(sys.path)
+# print (sys.version)
+# my_list.append("cc")
+# print(my_list)
+# list_my_2=("aa","bb","dd")
+# my_list.extend(list_my_2)
+# my_list.extend(my_list_1)
+# print(my_list)
+# my_list_1.insert(0,"pp")
+# my_list_1.remove("pp")
+# my_list_1.pop([0])
+# my_list_1.clear()
+# print(my_list_1.count(20))
+# print(my_list_1.sort())
+# print(my_list_1.reverse())
+# list_my_2=my_list_1.copy().sort()
+del my_list_1[0:2]
+print (my_list_1)
 

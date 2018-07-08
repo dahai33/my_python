@@ -20,8 +20,8 @@ import  sys
 # # print(dict_1)
 # # print(dict_1.items())
 # #字典的遍历
-# dic={"a":"abc","b":"bcd","c":"cde","e":"def"}
-# dic_1={"1":"abc","2":"bcd","3":"cde","4":"def"}
+dic={"a":"abc","b":"bcd","c":"cde","e":"def"}
+dic_1={"1":"abc","2":"bcd","3":"cde","4":"def"}
 # print(dic.items())
 # print(dic.keys())
 # print(dic.values())
@@ -47,4 +47,10 @@ import  sys
 # print(dic_3)
 print(sys.modules["os"])
 
+# for k,v in dic.items():
+#     print(k,v)
+# for i,x in enumerate(["abc"]):
+#     print(i,x)
+for q,j in zip(dic,dic_1):
+    print(q,j)
 
