@@ -2,7 +2,6 @@
 #Author:刘海涛
 # --*-- coding: uft-8 --*--
 # @Time   : 16:26
-#f=open('/Users/apple/Documents/test.txt','r+')
 # str=f.read()
 # f.close()
 # print(str)
@@ -17,5 +16,20 @@
 # f.write(s)
 # f.seek(3,2)
 # f.close()
-import pickle as pi
-x=pi.load("/Users/apple/Documents/test.txt")
+# import pickle as pi
+# x=pi.load("/Users/apple/Documents/test.txt")
+# try:
+#     print("is the")
+# except:
+#     print("is bad")
+#     print(Exception)
+# finally:
+#     pass
+
+# try:
+#     f=open('/Users/apple/Documents/test.txt','r+')
+#     f.write("is the good")
+# except IOError:
+#     print("is IO error")
+# finally:
+#     f.close()
