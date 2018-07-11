@@ -47,17 +47,17 @@ from __future__ import  division
 ##########################
 #冒泡
 
-def buSort(numbers):
-    for j in range(len(numbers)-1,-1,-1):
-        for i in range(j):
-            if numbers[i]>numbers[i+1]:
-                numbers[i],numbers[i+1]=numbers[i+1],numbers[i]
-                print (numbers)
-def main():
-    numbers=[12, 33, 44, 23, 34, 52 ,22]
-    buSort(numbers)
-if __name__=='__main__':
-     main()
+# def buSort(numbers):
+#     for j in range(len(numbers)-1,-1,-1):
+#         for i in range(j):
+#             if numbers[i]>nembers[i+1]:
+#                 numbers[i],numbers[i+1]=numbers[i+1],numbers[i]
+#                 print (numbers)
+# def main():
+#     numbers=[12, 33, 44, 23, 34, 52 ,22]
+#     buSort(numbers)
+# if __name__=='__main__':
+#      main()
 ##########################
 # print (resuout.get(op))
 # for case in switch(op):
@@ -78,3 +78,26 @@ if __name__=='__main__':
 #     y=30
 # print("y=",y)
 
+#创建函数
+# def area(high,width):
+#     return high*width
+# def sum (x,y,z):
+#     return x*y*z
+# # def str(str="nicd",*args):
+# #     return str+name+age
+# def return_sum (x,y):
+#     sum=x+y
+#     return sum
+# def empty_return(x,y):
+#     c=x*y
+#     return
+# def return_data(x,y,z):
+#     sum=x+y+z
+#     data=x*y*z
+#     return sum, data
+# def change_arg(*args):
+#     sum=0
+#     for x in args:
+#         sum += x
+#
+#     return sum
