@@ -26,5 +26,5 @@ driver.is_app_installed("com.pycredit.txxy")
 #将应该至于后台
 # driver.runAappInBackGround(2)
 driver.background_app(10)
-#应该重置
+#应用重置
 driver.reset()
