@@ -12,7 +12,10 @@ drive.find_element_by_accessibility_id("name")
 drive.seep(2)
 
 class shouye(page):
+
     login_button = drive.find_element_by_accessibility_id("calss")
     sumbit_button = drive.find_element_by_accessibility_id("class")
 
     drive.find_element_by_accessibility_id("name").click()
+
+
