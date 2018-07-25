@@ -1,0 +1,11 @@
+login_page:
+  desc:
+    - ruby:  1
+    - prel: 2
+    - python: 3
+regist:
+  desc:
+    - python_test:
+      id: 10
+      name: liuhaitao
+      age: 20

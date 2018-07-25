@@ -1,0 +1,9 @@
+[db]
+db.url=127.0.0.1
+db.user=root
+db.password=123455
+db.prot=3306
+[http]
+http_cod=200
+[email]
+sed_email=liuhaitaodhai@sina.com
