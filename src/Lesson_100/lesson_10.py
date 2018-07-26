@@ -30,7 +30,7 @@ import yaml
 ##ospath
 import time
 # print(os.path.abspath("yaml_test.yaml"))
-os.path.basename(r "D:\Object\my_python1\src\Lesson_100\Lesson_10.py")
+#os.path.basename(r "D:\Object\my_python1\src\Lesson_100\Lesson_10.py")
 # print(os.path.abspath("yaml_test.yaml").split("\\"))
 # print(os.path.abspath("yaml_test.yaml").splitlines())
 # print(os.path.abspath("yaml_test.yaml").isspace())
