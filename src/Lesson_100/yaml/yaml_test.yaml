@@ -1,0 +1,15 @@
+name: liuhaitao
+age: 30
+spouse:
+       name:liu
+       age:20
+chidren:
+     - name: li jie
+       age: 3
+     - name: liu hai tao
+       age: 10
+page:
+     element:
+     type:
+     action:
+

@@ -4,6 +4,7 @@
 # @Time   : 17:38
 import os
 import src.auto_test.units.log as L
+import yaml
 
 
 class devices_id(object):
@@ -30,6 +31,10 @@ class devices_id(object):
              L.Log.d(apk_name,"apk包卸载成功")
          else:
              L.Log.e(apk_name,"apk包卸载失败")
+
+
+
+
 
 if __name__=='__main__':
 
