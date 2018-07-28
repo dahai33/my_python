@@ -5,8 +5,8 @@
 #控制结构 {% %}
 #变量取值 {{ }}
 #注释 {# #}
-{  # this is jinja code
-    { % for file in filenames %}
-        ....:
-    {% endfor% }
-}
+# {  # this is jinja code
+#     { % for file in filenames %}
+#         ....:
+#     {% endfor% }
+# }

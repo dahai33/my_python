@@ -47,13 +47,41 @@ import time
 # co=yaml.load(f)
 # print(co)
 # str(os.path.abspath(os.path.join(os.path.dirname(__file__), os.pardir, "data/config.ini")))
-print(os.path.abspath(os.path.join(os.path.dirname(__file__),os.pardir,"yaml/yaml_test.yaml")))
-print(os.path.abspath(os.path.join()))
-print(os.path.dirname(__file__))
-# print(os.pardir)
-# print(os.path.pardir)
-print(os.path.dirname(__file__),os.pardir,"yaml/yaml_test.yaml")
-print(os.path.dirname(__file__),"/yaml/yaml_test.yaml")
-print(os.path.dirname(__file__).join("/yaml/yaml_test.yaml"))
+# print(os.path.abspath(os.path.join(os.path.dirname(__file__),os.pardir,"yaml/yaml_test.yaml")))
+# print(os.path.abspath(os.path.join()))
+# print(os.path.dirname(__file__))
+# # print(os.pardir)
+# # print(os.path.pardir)
+# print(os.path.dirname(__file__),os.pardir,"yaml/yaml_test.yaml")
+# print(os.path.dirname(__file__),"/yaml/yaml_test.yaml")
+# print(os.path.dirname(__file__).join("/yaml/yaml_test.yaml"))
+
+def func(a,b,c):
+    return a,b,c
+list=[1,2,3]
+def func_1(*list):
+    return list
+#args 元组
+def func_2(*args):
+    return args
+def func_3(a,*args):
+    print("this is a=",a)
+    print("args in tuple")
+    for i in args:
+        print(i)
+def sums(*args):
+    return sums()
+
+
+
+if __name__ == '__main__':
+    # print(func(*list))
+    # print(func_1(*list))
+    # print(func_1(3,4,2,3,2,3,4))
+    # print(func_2("122","2323","ewewe"))
+    # print(func_3(1,2,3,4,5))
+    print(sum([1,2,3,4,4,4]))
+
+
 
 
