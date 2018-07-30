@@ -1,0 +1,5 @@
+{
+  "pytest_01.py::TestClass::()::test_func": true,
+  "pytest_01.py::TestClass::()::test_two": true,
+  "pytest_01.py::TestClass::()::test_zero_di": true
+}

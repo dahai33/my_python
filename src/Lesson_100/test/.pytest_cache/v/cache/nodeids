@@ -1,0 +1,5 @@
+[
+  "pytest_01.py::TestClass::()::test_one",
+  "pytest_02.py::test_reverse",
+  "pytest_02.py::test_f"
+]
