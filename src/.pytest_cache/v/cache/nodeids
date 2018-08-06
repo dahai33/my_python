@@ -1,0 +1,12 @@
+[
+  "pytest_allure/test_01.py::test_func",
+  "pytest_allure/test_01.py::TestClass::()::test_one",
+  "pytest_allure/test_01.py::TestClass::()::test_two",
+  "pytest_allure/test_01.py::test_smtp",
+  "pytest_allure/test_01/test_001.py::test_func",
+  "pytest_allure/test_01/test_001.py::TestClass::()::test_one",
+  "pytest_allure/test_01/test_001.py::TestClass::()::test_two",
+  "pytest_allure/test_01/test_002.py::test_func",
+  "pytest_allure/test_01/test_002.py::TestClass::()::test_one",
+  "pytest_allure/test_01/test_002.py::TestClass::()::test_two"
+]

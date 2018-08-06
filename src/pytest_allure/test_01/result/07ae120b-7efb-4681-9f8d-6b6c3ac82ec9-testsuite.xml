@@ -1,0 +1,92 @@
+<ns0:test-suite xmlns:ns0="urn:model.allure.qatools.yandex.ru" start="1533571129087" stop="1533571129150">
+  <name>test_001</name>
+  <labels/>
+  <test-cases>
+    <test-case start="1533571129087" status="failed" stop="1533571129140">
+      <name>test_func</name>
+      <failure>
+        <message>AssertionError: assert 4 == 5
+ +  where 4 = func(3)</message>
+        <stack-trace>@allure.feature("is the test")
+    def test_func():
+&gt;       assert func(3)==5
+E       assert 4 == 5
+E        +  where 4 = func(3)
+
+test_001.py:14: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="feature" value="is the test"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11541-MainThread"/>
+        <label name="host" value="appledeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+    <test-case start="1533571129142" status="failed" stop="1533571129146">
+      <name>TestClass.test_one</name>
+      <failure>
+        <message>TypeError: attach() missing 1 required positional argument: 'contents'</message>
+        <stack-trace>self = &lt;test_001.TestClass object at 0x10e5eba90&gt;
+
+    @allure.story("开始测试")
+    def test_one(self):
+        x="this"
+        with allure.step("tttt"):
+&gt;           allure.attach("函数测试中")
+E           TypeError: attach() missing 1 required positional argument: 'contents'
+
+test_001.py:22: TypeError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="story" value="开始测试"/>
+        <label name="feature" value="这是测试类"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11541-MainThread"/>
+        <label name="host" value="appledeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps>
+        <step start="1533571129143" status="failed" stop="1533571129143">
+          <name>tttt</name>
+          <title>tttt</title>
+          <attachments/>
+          <steps/>
+        </step>
+      </steps>
+    </test-case>
+    <test-case start="1533571129147" status="failed" stop="1533571129150">
+      <name>TestClass.test_two</name>
+      <failure>
+        <message>AssertionError: assert False
+ +  where False = hasattr('hello', 'check')</message>
+        <stack-trace>self = &lt;test_001.TestClass object at 0x10e5eb400&gt;
+
+    @allure.story("类中第二个函数")
+    def test_two(self):
+        x="hello"
+&gt;       assert hasattr(x,"check")
+E       AssertionError: assert False
+E        +  where False = hasattr('hello', 'check')
+
+test_001.py:29: AssertionError</stack-trace>
+      </failure>
+      <attachments/>
+      <labels>
+        <label name="story" value="类中第二个函数"/>
+        <label name="feature" value="这是测试类"/>
+        <label name="severity" value="normal"/>
+        <label name="thread" value="11541-MainThread"/>
+        <label name="host" value="appledeMacBook-Pro.local"/>
+        <label name="framework" value="pytest"/>
+        <label name="language" value="cpython3"/>
+      </labels>
+      <steps/>
+    </test-case>
+  </test-cases>
+</ns0:test-suite>

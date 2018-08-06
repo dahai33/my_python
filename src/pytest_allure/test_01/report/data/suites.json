@@ -1,0 +1,45 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_001",
+    "children" : [ {
+      "name" : "test_func",
+      "uid" : "a08727984b34809f",
+      "parentUid" : "21d3ad6bc87744e5a078ecc30279b51a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1533571129087,
+        "stop" : 1533571129140,
+        "duration" : 53
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestClass.test_one",
+      "uid" : "e1b98295b0ac5f5d",
+      "parentUid" : "21d3ad6bc87744e5a078ecc30279b51a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1533571129142,
+        "stop" : 1533571129146,
+        "duration" : 4
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "TestClass.test_two",
+      "uid" : "ad8f17f2701541e0",
+      "parentUid" : "21d3ad6bc87744e5a078ecc30279b51a",
+      "status" : "failed",
+      "time" : {
+        "start" : 1533571129147,
+        "stop" : 1533571129150,
+        "duration" : 3
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "21d3ad6bc87744e5a078ecc30279b51a"
+  } ]
+}

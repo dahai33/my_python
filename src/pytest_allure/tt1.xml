@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><testsuite errors="0" failures="7" name="pytest" skips="0" tests="10" time="68.473"><testcase classname="pytest_allure.test_01" file="pytest_allure/test_01.py" line="13" name="test_func" time="0.002801179885864258"><failure message="assert 4 == 5
+ +  where 4 = func(3)">@pytest.mark.test_id(1901)
+    def test_func():
+&gt;       assert func(3)==5
+E       assert 4 == 5
+E        +  where 4 = func(3)
+
+pytest_allure/test_01.py:16: AssertionError</failure></testcase><testcase classname="pytest_allure.test_01.TestClass" file="pytest_allure/test_01.py" line="19" name="test_one" time="0.0009937286376953125"></testcase><testcase classname="pytest_allure.test_01.TestClass" file="pytest_allure/test_01.py" line="22" name="test_two" time="0.0009932518005371094"><failure message="AssertionError: assert False
+ +  where False = hasattr(&apos;hello&apos;, &apos;check&apos;)">self = &lt;pytest_allure.test_01.TestClass object at 0x10b177898&gt;
+
+    def test_two(self):
+        x=&quot;hello&quot;
+&gt;       assert hasattr(x,&quot;check&quot;)
+E       AssertionError: assert False
+E        +  where False = hasattr(&apos;hello&apos;, &apos;check&apos;)
+
+pytest_allure/test_01.py:25: AssertionError</failure></testcase><testcase classname="pytest_allure.test_01" file="pytest_allure/test_01.py" line="30" name="test_smtp" time="68.30883526802063"><failure message="AttributeError: &apos;SMTP&apos; object has no attribute &apos;echo&apos;">smtp_connection = &lt;smtplib.SMTP object at 0x10b177940&gt;
+
+    def test_smtp(smtp_connection):
+&gt;       response,msg=smtp_connection.echo()
+E       AttributeError: &apos;SMTP&apos; object has no attribute &apos;echo&apos;
+
+pytest_allure/test_01.py:32: AttributeError</failure></testcase><testcase classname="pytest_allure.test_01.test_001" file="pytest_allure/test_01/test_001.py" line="12" name="test_func" time="0.001661062240600586"><failure message="assert 4 == 5
+ +  where 4 = func(3)">def test_func():
+&gt;       assert func(3)==5
+E       assert 4 == 5
+E        +  where 4 = func(3)
+
+pytest_allure/test_01/test_001.py:14: AssertionError</failure></testcase><testcase classname="pytest_allure.test_01.test_001.TestClass" file="pytest_allure/test_01/test_001.py" line="17" name="test_one" time="0.003317117691040039"></testcase><testcase classname="pytest_allure.test_01.test_001.TestClass" file="pytest_allure/test_01/test_001.py" line="20" name="test_two" time="0.0013587474822998047"><failure message="AssertionError: assert False
+ +  where False = hasattr(&apos;hello&apos;, &apos;check&apos;)">self = &lt;test_001.TestClass object at 0x10b24bf60&gt;
+
+    def test_two(self):
+        x=&quot;hello&quot;
+&gt;       assert hasattr(x,&quot;check&quot;)
+E       AssertionError: assert False
+E        +  where False = hasattr(&apos;hello&apos;, &apos;check&apos;)
+
+pytest_allure/test_01/test_001.py:23: AssertionError</failure></testcase><testcase classname="pytest_allure.test_01.test_002" file="pytest_allure/test_01/test_002.py" line="12" name="test_func" time="0.004150867462158203"><failure message="assert 4 == 5
+ +  where 4 = func(3)">def test_func():
+&gt;       assert func(3)==5
+E       assert 4 == 5
+E        +  where 4 = func(3)
+
+pytest_allure/test_01/test_002.py:14: AssertionError</failure></testcase><testcase classname="pytest_allure.test_01.test_002.TestClass" file="pytest_allure/test_01/test_002.py" line="17" name="test_one" time="0.0008723735809326172"></testcase><testcase classname="pytest_allure.test_01.test_002.TestClass" file="pytest_allure/test_01/test_002.py" line="20" name="test_two" time="0.0017228126525878906"><failure message="AssertionError: assert False
+ +  where False = hasattr(&apos;hello&apos;, &apos;check&apos;)">self = &lt;test_002.TestClass object at 0x10b263550&gt;
+
+    def test_two(self):
+        x=&quot;hello&quot;
+&gt;       assert hasattr(x,&quot;check&quot;)
+E       AssertionError: assert False
+E        +  where False = hasattr(&apos;hello&apos;, &apos;check&apos;)
+
+pytest_allure/test_01/test_002.py:23: AssertionError</failure></testcase></testsuite>

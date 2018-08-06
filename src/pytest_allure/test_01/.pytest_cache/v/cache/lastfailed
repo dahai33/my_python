@@ -1,0 +1,6 @@
+{
+  "test_001.py::TestClass": true,
+  "test_001.py::TestClass::()::test_one": true,
+  "test_001.py::TestClass::()::test_two": true,
+  "test_001.py::test_func": true
+}

@@ -1,0 +1,5 @@
+[
+  "test_001.py::test_func",
+  "test_001.py::TestClass::()::test_one",
+  "test_001.py::TestClass::()::test_two"
+]

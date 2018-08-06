@@ -1,0 +1,72 @@
+{
+  "uid" : "ad8f17f2701541e0",
+  "name" : "TestClass.test_two",
+  "fullName" : "test_001.TestClass.test_two",
+  "historyId" : "ecfe4d07c14ed445ab6aa9908d96b86b",
+  "time" : {
+    "start" : 1533571129147,
+    "stop" : 1533571129150,
+    "duration" : 3
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert False\n +  where False = hasattr('hello', 'check')",
+  "statusTrace" : "self = <test_001.TestClass object at 0x10e5eb400>\n\n    @allure.story(\"类中第二个函数\")\n    def test_two(self):\n        x=\"hello\"\n>       assert hasattr(x,\"check\")\nE       AssertionError: assert False\nE        +  where False = hasattr('hello', 'check')\n\ntest_001.py:29: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "这是测试类"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "appledeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "类中第二个函数"
+  }, {
+    "name" : "thread",
+    "value" : "11541-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_001"
+  }, {
+    "name" : "testClass",
+    "value" : "test_001"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestClass.test_two"
+  }, {
+    "name" : "package",
+    "value" : "test_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ad8f17f2701541e0.json",
+  "parameterValues" : [ ]
+}

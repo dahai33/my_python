@@ -1,0 +1,69 @@
+{
+  "uid" : "a08727984b34809f",
+  "name" : "test_func",
+  "fullName" : "test_001.test_func",
+  "historyId" : "40f337497b1f9c1d0ee3ef839266fd20",
+  "time" : {
+    "start" : 1533571129087,
+    "stop" : 1533571129140,
+    "duration" : 53
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 4 == 5\n +  where 4 = func(3)",
+  "statusTrace" : "@allure.feature(\"is the test\")\n    def test_func():\n>       assert func(3)==5\nE       assert 4 == 5\nE        +  where 4 = func(3)\n\ntest_001.py:14: AssertionError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "is the test"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "appledeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "thread",
+    "value" : "11541-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_001"
+  }, {
+    "name" : "testClass",
+    "value" : "test_001"
+  }, {
+    "name" : "testMethod",
+    "value" : "test_func"
+  }, {
+    "name" : "package",
+    "value" : "test_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a08727984b34809f.json",
+  "parameterValues" : [ ]
+}

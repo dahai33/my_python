@@ -1,0 +1,100 @@
+{
+  "uid" : "e1b98295b0ac5f5d",
+  "name" : "TestClass.test_one",
+  "fullName" : "test_001.TestClass.test_one",
+  "historyId" : "ced0fe68662435648edda2d54dd2027",
+  "time" : {
+    "start" : 1533571129142,
+    "stop" : 1533571129146,
+    "duration" : 4
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "TypeError: attach() missing 1 required positional argument: 'contents'",
+  "statusTrace" : "self = <test_001.TestClass object at 0x10e5eba90>\n\n    @allure.story(\"开始测试\")\n    def test_one(self):\n        x=\"this\"\n        with allure.step(\"tttt\"):\n>           allure.attach(\"函数测试中\")\nE           TypeError: attach() missing 1 required positional argument: 'contents'\n\ntest_001.py:22: TypeError",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "TypeError: attach() missing 1 required positional argument: 'contents'",
+    "statusTrace" : "self = <test_001.TestClass object at 0x10e5eba90>\n\n    @allure.story(\"开始测试\")\n    def test_one(self):\n        x=\"this\"\n        with allure.step(\"tttt\"):\n>           allure.attach(\"函数测试中\")\nE           TypeError: attach() missing 1 required positional argument: 'contents'\n\ntest_001.py:22: TypeError",
+    "steps" : [ {
+      "name" : "tttt",
+      "time" : {
+        "start" : 1533571129143,
+        "stop" : 1533571129143,
+        "duration" : 0
+      },
+      "status" : "failed",
+      "statusMessage" : "self = <test_001.TestClass object at 0x10e5eba90>\n\n    @allure.story(\"开始测试\")\n    def test_one(self):\n        x=\"this\"\n        with allure.step(\"tttt\"):\n>           allure.attach(\"函数测试中\")\nE           TypeError: attach() missing 1 required positional argument: 'contents'\n\ntest_001.py:22: TypeError",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "这是测试类"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "host",
+    "value" : "appledeMacBook-Pro.local"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "story",
+    "value" : "开始测试"
+  }, {
+    "name" : "thread",
+    "value" : "11541-MainThread"
+  }, {
+    "name" : "suite",
+    "value" : "test_001"
+  }, {
+    "name" : "testClass",
+    "value" : "test_001"
+  }, {
+    "name" : "testMethod",
+    "value" : "TestClass.test_one"
+  }, {
+    "name" : "package",
+    "value" : "test_001"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e1b98295b0ac5f5d.json",
+  "parameterValues" : [ ]
+}

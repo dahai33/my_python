@@ -1,0 +1,49 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "appledeMacBook-Pro.local",
+    "children" : [ {
+      "name" : "11541-MainThread",
+      "children" : [ {
+        "name" : "test_func",
+        "uid" : "a08727984b34809f",
+        "parentUid" : "ca3304a8f48eb4456fa6fd0a70c39b33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1533571129087,
+          "stop" : 1533571129140,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestClass.test_one",
+        "uid" : "e1b98295b0ac5f5d",
+        "parentUid" : "ca3304a8f48eb4456fa6fd0a70c39b33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1533571129142,
+          "stop" : 1533571129146,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "TestClass.test_two",
+        "uid" : "ad8f17f2701541e0",
+        "parentUid" : "ca3304a8f48eb4456fa6fd0a70c39b33",
+        "status" : "failed",
+        "time" : {
+          "start" : 1533571129147,
+          "stop" : 1533571129150,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ca3304a8f48eb4456fa6fd0a70c39b33"
+    } ],
+    "uid" : "eb4774341b1ec406f497863ee31c01b4"
+  } ]
+}

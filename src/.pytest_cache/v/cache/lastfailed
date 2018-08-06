@@ -1,0 +1,11 @@
+{
+  "pytest_allure/test_01.py::TestClass": true,
+  "pytest_allure/test_01.py::TestClass::()::test_two": true,
+  "pytest_allure/test_01.py::test_dir": true,
+  "pytest_allure/test_01.py::test_func": true,
+  "pytest_allure/test_01.py::test_smtp": true,
+  "pytest_allure/test_01/test_001.py::TestClass::()::test_two": true,
+  "pytest_allure/test_01/test_001.py::test_func": true,
+  "pytest_allure/test_01/test_002.py::TestClass::()::test_two": true,
+  "pytest_allure/test_01/test_002.py::test_func": true
+}

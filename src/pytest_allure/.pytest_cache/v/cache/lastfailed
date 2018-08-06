@@ -1,0 +1,11 @@
+{
+  "test_01.py::TestClass": true,
+  "test_01.py::TestClass::()::test_two": true,
+  "test_01.py::test_dir": true,
+  "test_01.py::test_func": true,
+  "test_01/test_001.py::TestClass": true,
+  "test_01/test_001.py::TestClass::()::test_two": true,
+  "test_01/test_001.py::test_func": true,
+  "test_01/test_002.py::TestClass::()::test_two": true,
+  "test_01/test_002.py::test_func": true
+}

@@ -1,0 +1,57 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert 4 == 5\n +  where 4 = func(3)",
+      "children" : [ {
+        "name" : "test_func",
+        "uid" : "a08727984b34809f",
+        "parentUid" : "79db0fec69a88747a886714c347fc19d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1533571129087,
+          "stop" : 1533571129140,
+          "duration" : 53
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "79db0fec69a88747a886714c347fc19d"
+    }, {
+      "name" : "TypeError: attach() missing 1 required positional argument: 'contents'",
+      "children" : [ {
+        "name" : "TestClass.test_one",
+        "uid" : "e1b98295b0ac5f5d",
+        "parentUid" : "c422ba5e5fd715c6831a923419eec0ed",
+        "status" : "failed",
+        "time" : {
+          "start" : 1533571129142,
+          "stop" : 1533571129146,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "c422ba5e5fd715c6831a923419eec0ed"
+    }, {
+      "name" : "AssertionError: assert False\n +  where False = hasattr('hello', 'check')",
+      "children" : [ {
+        "name" : "TestClass.test_two",
+        "uid" : "ad8f17f2701541e0",
+        "parentUid" : "976bb84be9a3148226d3036a7b1269d3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1533571129147,
+          "stop" : 1533571129150,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "976bb84be9a3148226d3036a7b1269d3"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

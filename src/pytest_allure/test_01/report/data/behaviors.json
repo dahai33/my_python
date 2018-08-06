@@ -1,0 +1,57 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "is the test",
+    "children" : [ {
+      "name" : "test_func",
+      "uid" : "a08727984b34809f",
+      "parentUid" : "21cdfdfec9af12d304de9f5a8b7be235",
+      "status" : "failed",
+      "time" : {
+        "start" : 1533571129087,
+        "stop" : 1533571129140,
+        "duration" : 53
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "21cdfdfec9af12d304de9f5a8b7be235"
+  }, {
+    "name" : "这是测试类",
+    "children" : [ {
+      "name" : "开始测试",
+      "children" : [ {
+        "name" : "TestClass.test_one",
+        "uid" : "e1b98295b0ac5f5d",
+        "parentUid" : "f8dac0519319bbc2c1ecd568f5b849f3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1533571129142,
+          "stop" : 1533571129146,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f8dac0519319bbc2c1ecd568f5b849f3"
+    }, {
+      "name" : "类中第二个函数",
+      "children" : [ {
+        "name" : "TestClass.test_two",
+        "uid" : "ad8f17f2701541e0",
+        "parentUid" : "f140480926c7eaedec7c0ae1f9df7817",
+        "status" : "failed",
+        "time" : {
+          "start" : 1533571129147,
+          "stop" : 1533571129150,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "f140480926c7eaedec7c0ae1f9df7817"
+    } ],
+    "uid" : "69a2048dd3a0d4a51a6108b5e1c20765"
+  } ]
+}

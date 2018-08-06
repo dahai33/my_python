@@ -1,0 +1,4 @@
+"Status","Name","Duration in ms","Description"
+"failed","test_001.test_func","53",""
+"failed","test_001.TestClass.test_one","4",""
+"failed","test_001.TestClass.test_two","3",""
